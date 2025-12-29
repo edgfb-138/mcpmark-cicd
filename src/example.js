@@ -1,4 +1,5 @@
 export function demo() {
-  var unused = 42
-  console.log("Hello world")
+  const answer = 42;
+  console.warn('Hello world');
+  return answer;
 }
